@@ -15,7 +15,7 @@ Original classification
 | edible | poisonous |
 |--------|-----------|
 | 4208   | 3915      |We use three algorithms to find out the unsure proportion in mushroom data; the result is as following.##### K-meansFor the k-means algorithm, we can use two kinds of PCA features to cluster original data. Then, we can get a cluster table which contains each class number in different k of k-means. Clusters with k-means in 2, 3, 5, 7.
-|       .            | 2         | 3              | 5                        | 7                                  |
+|                    | 2         | 3              | 5                        | 7                                  |
 |--------------------|-----------|----------------|--------------------------|------------------------------------|
 | k-means pcanew-2d  | 1869 6254 | 3669 2581 1873 | 1459 632 3212 1737 1083  | 1744 594 1378 2239 661 826  681    |
 | k-means pcannew-3d | 3040 5083 | 3555 3013 1555 | 1372 271 3431 1901 1148  | 1739 210 1329 1911 614 991 1329    |
@@ -25,7 +25,7 @@ Original classification
 ##### K-medoids
 The result with k-medoids algorithms.
 
-| .            | 2         | 3              | 5                        | 7                               |
+|              | 2         | 3              | 5                        | 7                               |
 |--------------|-----------|----------------|--------------------------|---------------------------------|
 | k-medoids-2d | 6239 1884 | 3601 2659 1863 | 3135 1134 694 1420 1740  | 863 748 678 2276 586 1233 1739  |
 | k-medoids-3d | 6264 1859 | 4466 1748 1909 | 1744 1072 2065 1360 1882 | 907 1077 934 1940 1315 1740 210 |
@@ -35,7 +35,7 @@ Accuracies with KNN algorithm, the ratio of the training set and test set tries 
 
 Accuracies With two attributes after dimension reduction algorithm.
 
-| .   | 05:05  | 06:04  | 07:03  |
+|     | 05:05  | 06:04  | 07:03  |
 |-----|--------|--------|--------|
 | 2   | 92.74% | 92.64% | 92.67% |
 | 3   | 93.18% | 93.47% | 92.86% |
@@ -44,7 +44,7 @@ Accuracies With two attributes after dimension reduction algorithm.
 | AVG | 93.39% | 93.60% | 93.45% |
 Accuracies With two attributes after dimension-reduction algorithm.
 
-| .   | 05:05  | 06:04  | 07:03  |
+|     | 05:05  | 06:04  | 07:03  |
 |-----|--------|--------|--------|
 | 2   | 98.28% | 98.21% | 98.52% |
 | 3   | 98.55% | 98.83% | 98.93% |
