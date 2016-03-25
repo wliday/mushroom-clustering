@@ -4,10 +4,15 @@
 The problem is to determine what makes a mushroom edible or not-edible. This data set includes descriptions of hypothetical samples corresponding to 23 species of gilled mushrooms in the Agaricus and Lepiota Family (pp. 500-525). Each species is identified as definitely edible, definitely poisonous, or of unknown edibility and not recommended. This latter class was combined with the poisonous one. The Guide clearly states that there is no simple rule for determining the edibility of a mushroom; no rule like ``leaflets three, let it be'' for Poisonous Oak and Ivy.### Objective: 
 As noted in the writeup, there are edible, poisonous and unsure mushroom samples. Unsure samples have been labeled as poisonous in the data set. Your job is to analyze the mushroom data set and see if you can’t find the subset of poisonous samples which correspond to unsure class. You will need samples marked both edible and poisonous to make this determination.### Solutions:
 Step 1: Clean data, convert all letters to numbers.
+
 Step 2: Normalization, normalize all numbers to a small scale.
+
 Step 3: Data reduction in with Principal Component Analysis (PCA) Method. Descend 22 attributes to 2 and 3 attributes.
+
 Step 4.1: Cluster with k-means algorithm.
+
 Step 4.2: Cluster with k-medoids algorithm.
+
 Step 4.3: Classify with k-nearest neighbor algorithm.
 
 ### Results:
