@@ -72,6 +72,10 @@ Accuracies With two attributes after dimension-reduction algorithm.
 @Tianhang Qiang
 @Yang Yang
 
+### Updated Record
+> #### v0.9   03/25/2015
+Initialize projects, provide rough results.
+
 [3means-2d]: https://github.com/wliday/mushroom-clustering/blob/master/screenshot/kmeans/2d/3means-2d.png
 [3medoids-2d]: https://github.com/wliday/mushroom-clustering/blob/master/screenshot/kmedoids/2d/k_med_3.png
 [3nn-0.6]: https://github.com/wliday/mushroom-clustering/blob/master/screenshot/knn/2d-0.6/3nn-0.6.png
